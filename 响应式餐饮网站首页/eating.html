@@ -1,0 +1,314 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>餐饮网站首页</title>
+<link href="index.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!--1 Header-->
+<header>
+  <div class="head-top"></div>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="navbar-header"> <a href="#" class="navbar-brand" id="one"><img src="imgs/15.jpg" /></a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"> 
+          <span class="sr-only">汉堡按钮</span> 
+          <span class="icon-bar"></span> 
+          <span class="icon-bar"></span> 
+          <span class="icon-bar"></span> 
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">主页</a></li>
+            <li><a href="#">餐厅</a></li>
+            <li><a href="#">健康</a></li>
+            <li><a href="#">话题</a></li>
+            <li><a href="#">联系我们</a></li>
+          </ul>
+          <div class="navbar-right"> <a href="#">
+            <h3><a>¥ 0.00<span class="glyphicon glyphicon-shopping-cart"></span></a></h3>
+            </a> </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+</header>
+
+<!--2 Search-->
+<div class="search">
+  <div class="container">
+    <div class="reservation">
+      <form class="form-horizontal" role="form">
+        <div class="form-group">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <input type="text" class="form-control input-lg" id="name" placeholder="请输入餐厅名称">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <select id="country" class="form-control input-lg">
+              <option value="null">请选择城市</option>
+              <option value="bj">北京</option>
+              <option value="sh">上海</option>
+              <option value="sz">深圳</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="searchbtn">
+            <button type="submit" class="btn btn-success btn-lg"> <span class="glyphicon glyphicon-search">&nbsp;搜索</span></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!--3 热卖商品-->
+<div class="hot">
+  <div class="container">
+    <div class="col-md-4">
+      <h3>水果慕斯</h3>
+      <img src="imgs/17.jpg" class="img-responsive">
+      <div>
+        <p class="glyphicon glyphicon-thumbs-up">两种口味可供选择</p>
+        <div class="cur"> <span><a class="morebtn" href="#">添加到购物车</a></span> <span>
+          <h6>一口价 ：￥45.0</h6>
+          </span> </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h3>豪华套餐</h3>
+      <img src="imgs/21.jpg" class="img-responsive">
+      <div>
+        <p class="glyphicon glyphicon-thumbs-up">两种口味可供选择</p>
+        <div class="cur"> <span><a class="morebtn" href="#">添加到购物车</a></span> <span>
+          <h6>一口价 : ￥55.0</h6>
+          </span> </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h3>美味汉堡</h3>
+      <img src="imgs/20.jpg" class="img-responsive">
+      <div>
+        <p class="glyphicon glyphicon-thumbs-up">两种口味可供选择</p>
+        <div class="cur"> <span><a class="morebtn" href="#">添加到购物车</a></span> <span>
+          <h6>一口价 : ￥65.0</h6>
+          </span> </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--4 特色推荐-->
+<div class="container">
+  <div class="choose">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="navbar-header hidden-xs"> <a class="navbar-brand" href="#" id="two"> <img src="imgs/16.jpg" sizes="100px"></a> </div>
+        <ul class="nav nav-pills navbar-right" role="rablist">
+          <li role="presentation" class="active"> <a href="#dishes" role="tab" data-toggle="tab">菜品</a></li>
+          <li role="presentation"> <a href="#drink" role="tab" data-toggle="tab">饮品</a></li>
+          <li role="presentation"> <a href="#staple" role="tab" data-toggle="tab">主食</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="dishes">
+            <div class="col-md-2 col-sm-4 col-xs-6"> <img src="imgs/22.jpg">
+              <p>凉拌猪肝</p>
+              <p>￥145.0</p>
+            </div>
+            <div class="product-item col-md-2 col-sm-4 col-xs-6"> <img src="imgs/23.jpg">
+              <p>特色海鲜</p>
+              <p>￥165.0</p>
+            </div>
+            <div class="product-item col-md-2 col-sm-4 col-xs-6"> <img src="imgs/24.jpg">
+              <p>烧烤拼盘</p>
+              <p>￥165.0</p>
+            </div>
+            <div class="product-item col-md-2 col-sm-4 col-xs-6"> <img src="imgs/25.jpg">
+              <p>爆炒牛丸</p>
+              <p>￥165.0</p>
+            </div>
+            <div class="product-item col-md-2 col-sm-4 col-xs-6"> <img src="imgs/26.jpg">
+              <p>南瓜鸡</p>
+              <p>￥145.0</p>
+            </div>
+            <div class="product-item col-md-2 col-sm-4 col-xs-6"> <img src="imgs/27.jpg">
+              <p>奥尔良鸡翅</p>
+              <p>￥165.0</p>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="drink">
+            <div class="product-item col-md-2 col-sm-4 col-xs-6"> <img src="imgs/36.jpg">
+              <p>橙汁</p>
+              <p>￥98.0</p>
+            </div>
+            <div class="product-item col-md-2 col-sm-4 col-xs-6"> <img src="imgs/37.jpg">
+              <p>草莓汁</p>
+              <p>￥98.0</p>
+            </div>
+            <div class="product-item col-md-2 col-sm-4 col-xs-6"> <img src="imgs/38.jpg">
+              <p>西瓜汁</p>
+              <p>￥98.0</p>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="staple">
+            <div class="product-item col-md-2 col-sm-4 col-xs-6"> <img src="imgs/31.jpg">
+              <p>米饭</p>
+              <p>￥56.0</p>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="staple">
+              <div class="product-item col-md-2 col-sm-4 col-xs-6"> <img src="imgs/32.jpg">
+                <p>麻团</p>
+                <p>￥56.0</p>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="staple">
+                <div class="product-item col-md-2 col-sm-4 col-xs-6"> <img src="imgs/33.jpg">
+                  <p>酥饼</p>
+                  <p>￥56.0</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--5 轮转广告-->
+<div class="container hidden-xs">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+<!--
+<ol class="carousel-indicators">
+<li class="active" data-target="#slidershow" data-slide-to="0"></li>
+<li data-target="#slidershow" data-slide-to="1"></li>
+<li data-target="#slidershow" data-slide-to="2"></li>
+<li data-target="#slidershow" data-slide-to="3"></li>
+<li data-target="#slidershow" data-slide-to="4"></li>
+<li data-target="#slidershow" data-slide-to="5"></li>
+</ol>
+-->
+
+<div class="carousel-inner">
+<div class="item active">
+<div class="pic">
+<img src="imgs/22.jpg" alt="">
+<img src="imgs/23.jpg" alt="">
+<img src="imgs/24.jpg" alt="">
+<img src="imgs/25.jpg" alt="">
+<img src="imgs/26.jpg" alt="">
+<img src="imgs/27.jpg" alt="">
+</div>
+</div>
+<div class="item">
+<div class="pic">
+<img src="imgs/23.jpg" alt="">
+<img src="imgs/24.jpg" alt="">
+<img src="imgs/25.jpg" alt="">
+<img src="imgs/26.jpg" alt="">
+<img src="imgs/27.jpg" alt="">
+<img src="imgs/28.jpg" alt="">
+</div>
+</div>
+<div class="item">
+<div class="pic">
+<img src="imgs/24.jpg" alt="">
+<img src="imgs/25.jpg" alt="">
+<img src="imgs/26.jpg" alt="">
+<img src="imgs/27.jpg" alt="">
+<img src="imgs/28.jpg" alt="">
+<img src="imgs/29.jpg" alt="">
+</div>
+</div>
+<div class="item">
+<div class="pic">
+<img src="imgs/25.jpg" alt="">
+<img src="imgs/26.jpg" alt="">
+<img src="imgs/27.jpg" alt="">
+<img src="imgs/28.jpg" alt="">
+<img src="imgs/29.jpg" alt="">
+<img src="imgs/22.jpg" alt="">
+</div>
+</div>
+<div class="item">
+<div class="pic">
+<img src="imgs/26.jpg" alt="">
+<img src="imgs/27.jpg" alt="">
+<img src="imgs/28.jpg" alt="">
+<img src="imgs/29.jpg" alt="">
+<img src="imgs/22.jpg" alt="">
+<img src="imgs/23.jpg" alt="">
+</div>
+</div>
+<div class="item">
+<div class="pic">
+<img src="imgs/27.jpg" alt="">
+<img src="imgs/28.jpg" alt="">
+<img src="imgs/29.jpg" alt="">
+<img src="imgs/22.jpg" alt="">
+<img src="imgs/23.jpg" alt="">
+<img src="imgs/24.jpg" alt="">
+</div>
+</div>
+<div class="item">
+<div class="pic">
+<img src="imgs/28.jpg" alt="">
+<img src="imgs/29.jpg" alt="">
+<img src="imgs/22.jpg" alt="">
+<img src="imgs/23.jpg" alt="">
+<img src="imgs/24.jpg" alt="">
+<img src="imgs/25.jpg" alt="">
+</div>
+</div>
+<div class="item">
+<div class="pic">
+<img src="imgs/29.jpg" alt="">
+<img src="imgs/22.jpg" alt="">
+<img src="imgs/23.jpg" alt="">
+<img src="imgs/24.jpg" alt="">
+<img src="imgs/25.jpg" alt="">
+<img src="imgs/26.jpg" alt="">
+</div>
+</div>
+</div>
+<a class="carousel-control left" href="myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+<a class="carousel-control right" href="myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+</div>
+
+<!--6 footer部分--> 
+<div class="footer">
+<div class="container">
+<div class="footer-left">
+<p>Copyrights @ 2016 Bootstrap 响应式餐饮网站 | 版权所有 <a href="#"> </a></p>
+</div>
+<div class="footer-right">
+<ul>
+<li><a href="#"><span class="glyphicon glyphicon-phone-alt">联系我们</span></a></li>
+<li><a href="#"><span class="glyphicon glyphicon-map-marker">公司地址</span></a></li>
+<li><a href="#"><span class="glyphicon glyphicon-question-sign">服务声明</span></a></li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script> 
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 --> 
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
